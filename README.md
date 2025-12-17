@@ -32,21 +32,21 @@
 ---
 
 ## 📂 프로젝트 구조
+'''
 PlayLog
- ┣ app
- ┃ ┣ src/main
- ┃ ┃ ┣ java/com/example/playlog
- ┃ ┃ ┃ ┣ MainActivity.kt        // 앱 진입점
- ┃ ┃ ┃ ┣ PlayLogViewModel.kt    // 상태 관리 (MVVM)
- ┃ ┃ ┃ ┣ MatchLog.kt            // 게임 기록 데이터 모델
- ┃ ┃ ┃ ┗ ui
- ┃ ┃ ┃   ┣ HomeScreen.kt        // 기록 목록 / 요약 화면
- ┃ ┃ ┃   ┣ AddScreen.kt         // 기록 추가 화면
- ┃ ┃ ┃   ┗ LogCard.kt           // 기록 카드 UI
- ┃ ┃ ┣ res                      // 리소스
- ┃ ┃ ┗ AndroidManifest.xml
- ┃ ┣ build.gradle.kts
- ┣ gradle
- ┣ build.gradle.kts
- ┗ settings.gradle.kts
-
+┣ app
+┃ ┣ src/main
+┃ ┃ ┣ java/com/example/playlog
+┃ ┃ ┃ ┣ MainActivity.kt // 앱 진입점
+┃ ┃ ┃ ┣ PlayLogViewModel.kt // 상태 관리 (MVVM)
+┃ ┃ ┃ ┣ MatchLog.kt // 게임 기록 데이터 모델
+┃ ┃ ┃ ┣ HomeScreen.kt // 기록 목록 / 요약 화면
+┃ ┃ ┃ ┣ AddScreen.kt // 기록 추가 화면
+┃ ┃ ┃ ┗ LogCard.kt // 기록 카드 UI
+┃ ┃ ┣ res // 리소스
+┃ ┃ ┗ AndroidManifest.xml
+┃ ┣ build.gradle.kts
+┣ gradle
+┣ build.gradle.kts
+┗ settings.gradle.kts
+'''
