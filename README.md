@@ -32,7 +32,7 @@
 ---
 
 ## 📂 프로젝트 구조
-'''
+```
 PlayLog
 ┣ app
 ┃ ┣ src/main
@@ -49,4 +49,4 @@ PlayLog
 ┣ gradle
 ┣ build.gradle.kts
 ┗ settings.gradle.kts
-'''
+```
